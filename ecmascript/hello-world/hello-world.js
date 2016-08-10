@@ -4,10 +4,8 @@
 //
 
 class HelloWorld {
-  hello() {
-    //
-    // YOUR CODE GOES HERE
-    //
+  hello(greet = `World`) {
+    return `Hello, ${greet}!`
   }
 }
 
