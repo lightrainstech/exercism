@@ -7,5 +7,8 @@ here when you pass all the tests.
 ## Create Branch.
 `git branch  YOUR-BRANCH-NAME`
 
+## Checkout
+`git checkout YOUR-BRANCH-NAME`
+
 ## Push to remote
 `git push -u origin YOUT-BRANCH-NAME`
