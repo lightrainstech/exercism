@@ -4,4 +4,6 @@
 - [x] Hello World
 - [x] Leap year
 - [x] Hamming
-- [x] Rna Transcription 
+- [x] Rna Transcription
+- [x] Bob
+- [ ] Gigasecond 
