@@ -9,7 +9,7 @@ describe('Bob', () => {
     expect(result).toEqual('Whatever.');
   });
 
-  xit('shouting', () => {
+  it('shouting', () => {
     const result = bob.hey('WATCH OUT!');
     expect(result).toEqual('Whoa, chill out!');
   });
@@ -29,12 +29,12 @@ describe('Bob', () => {
     expect(result).toEqual('Whatever.');
   });
 
-  xit('forceful questions', () => {
+  it('forceful questions', () => {
     const result = bob.hey('WHAT THE HELL WERE YOU THINKING?');
     expect(result).toEqual('Whoa, chill out!');
   });
 
-  xit('shouting numbers', () => {
+  it('shouting numbers', () => {
     const result = bob.hey('1, 2, 3 GO!');
     expect(result).toEqual('Whoa, chill out!');
   });
@@ -49,12 +49,12 @@ describe('Bob', () => {
     expect(result).toEqual('Sure.');
   });
 
-  xit('shouting with special characters', () => {
+  it('shouting with special characters', () => {
     const result = bob.hey('ZOMG THE %^*@#$(*^ ZOMBIES ARE COMING!!11!!1!');
     expect(result).toEqual('Whoa, chill out!');
   });
 
-  xit('shouting with umlauts', () => {
+  it('shouting with umlauts', () => {
     const result = bob.hey('\xdcML\xc4\xdcTS!');
     expect(result).toEqual('Whoa, chill out!');
   });
@@ -64,7 +64,7 @@ describe('Bob', () => {
     expect(result).toEqual('Whatever.');
   });
 
-  xit('shouting with no exclamation mark', () => {
+  it('shouting with no exclamation mark', () => {
     const result = bob.hey('I HATE YOU');
     expect(result).toEqual('Whoa, chill out!');
   });
@@ -79,12 +79,12 @@ describe('Bob', () => {
     expect(result).toEqual('Sure.');
   });
 
-  xit('silence', () => {
+  it('silence', () => {
     const result = bob.hey('');
     expect(result).toEqual('Fine. Be that way!');
   });
 
-   xit('prolonged silence', () => {
+   it('prolonged silence', () => {
     const result = bob.hey('   ');
     expect(result).toEqual('Fine. Be that way!');
   });

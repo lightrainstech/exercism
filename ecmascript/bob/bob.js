@@ -4,13 +4,11 @@
 //
 
 class Bob {
-  isQuestion(message) { return message.charAt(input.length - 1) === '?'; }
 
   hey(message) {
-    if (isQuestion(message)){
-      return 'Sure.';
-    }
-    return 'Whatever.';
+
+    return (message.toUpperCase() === message && message.toLowerCase() !== message) ? 'Whoa, chill out!' : ((message.charAt(message.length - 1) === '?') ? 'Sure.' : (message.trim().length == 0) ? 'Fine. Be that way!' : 'Whatever.');
+
   }
 }
 
