@@ -49,3 +49,4 @@ Chapter 9 in Chris Pine's online Learn to Program tutorial. [http://pine.fm/Lear
 ## Submitting Incomplete Problems
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.
 
+[ES6JSFiddle](http://www.es6fiddle.net/iryff8g1/)
